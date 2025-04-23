@@ -13,8 +13,7 @@ Welcome to this Tkinter-based Python GUI project! This application showcases how
 
 Here’s a snapshot of the final output:
 
-![GUI Output](![Uploading ChatGPT Image Apr 23, 2025, 11_10_23 PM.png…]()
-)
+![GUI Output](./Screenshot 2025-04-23 231220.png)
 
 > Make sure to place `output_image.png` in the root directory of your repo.
 
