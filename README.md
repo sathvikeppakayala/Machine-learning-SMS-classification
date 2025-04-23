@@ -1,133 +1,66 @@
-# 📩 SMS Spam Classifier
+🎨 Tkinter GUI Project
+Welcome to this Tkinter-based Python GUI project! This application demonstrates the power of Python's built-in tkinter module to create intuitive and interactive graphical user interfaces.
 
-A machine learning-based desktop application that identifies **spam messages** from legitimate ones using a **stacked ensemble model** and **TF-IDF vectorization**. This project combines robust modeling with an intuitive Tkinter GUI to deliver real-time classification results.
+🚀 Features
+Built entirely using Python and the tkinter module.
 
-![Output Screenshot](output_image.png) <!-- Replace with your actual GUI image filename -->
+Interactive widgets and controls for seamless user experience.
 
----
+Simple, elegant, and user-friendly interface.
 
-## 🚀 Features
+Modular and clean code for easy understanding and extension.
 
-- ⚙️ **Stacked Ensemble Model**: Integrates Logistic Regression, Decision Tree, KNN, AdaBoost, and Random Forest for enhanced accuracy.
-- 📊 **TF-IDF Vectorizer**: Converts SMS text into meaningful numeric features.
-- 🖥️ **Tkinter GUI**: Provides a simple interface to enter messages and receive instant predictions.
-- 📦 **Pickle Integration**: Saves and loads models efficiently for reuse.
-- 🔒 **Accurate and Reliable**: Delivers strong performance using validated metrics like accuracy, precision, recall, and F1-score.
+🖥️ GUI Preview
+Here’s a snapshot of the final output:
 
----
-
-## 🧠 Model Architecture
-
-```text
-Raw SMS Text
-      │
-      ▼
-TF-IDF Vectorizer (tfidf_grow.pkl)
-      │
-      ▼
-Stacked Classifier (spam_grow.pkl)
-      │
-      ▼
-Prediction (Spam or Ham)
-🛠️ Tech Stack
-Language: Python 🐍
-
-Libraries: scikit-learn, pandas, numpy, tkinter, pickle
-
-Modeling Techniques:
-
-Logistic Regression
-
-Decision Tree Classifier
-
-K-Nearest Neighbors
-
-AdaBoost Classifier
-
-Random Forest Classifier
-
-StackingClassifier as the meta-model
-
-📸 Output Interface (GUI)
-Here’s how the GUI looks after prediction:
-
-<!-- Replace with your actual GUI image filename -->
-
-🧪 How to Run the Project
-Clone the Repository
-
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/spam-classifier.git
-cd spam-classifier
-Install Requirements
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Run the GUI
-
-bash
-Copy
-Edit
-python spam_gui.py
-Enter any SMS message, click Predict, and see the result!
 
 📁 Project Structure
-bash
+graphql
 Copy
 Edit
-📦 spam-classifier
-├── spam.csv                    # Dataset
-├── spam_grow.pkl               # Saved Stacking Model
-├── tfidf_grow.pkl              # Saved TF-IDF Vectorizer
-├── spam_gui.py                 # Tkinter-based GUI App
-├── model_training.ipynb        # Jupyter Notebook with full training pipeline
-├── output_image.png            # GUI output screenshot
-└── README.md                   # This file
-📈 Model Evaluation
+📦 tkinter-gui-project  
+├── 19d2e55d-b7ff-4124-bf3b-2fdc57688ba8.ipynb  # Main Jupyter notebook  
+├── output_image.png                            # GUI output screenshot  
+└── README.md                                   # Project documentation  
+🛠️ Requirements
+Make sure you have Python installed. This project uses the following libraries:
 
-Model	Accuracy	Precision	Recall	F1-Score
-Logistic Regression	✔️	✔️	✔️	✔️
-Decision Tree	✔️	✔️	✔️	✔️
-KNN	✔️	✔️	✔️	✔️
-AdaBoost	✔️	✔️	✔️	✔️
-Random Forest	✔️	✔️	✔️	✔️
-Stacking Model	⭐ Best	⭐ Best	⭐ Best	⭐ Best
-👨‍💻 Author
-Sathvik Eppakayala
-B.Tech in Computer Science and Technology | Data Science Specialization
-📫 Connect with me: LinkedIn | GitHub
+tkinter (comes pre-installed with Python)
+
+IPython (only if running via Jupyter)
+
+Install the required packages (if any) using pip:
+
+nginx
+Copy
+Edit
+pip install ipython
+🧠 How It Works
+Launch the notebook or convert the .ipynb into a Python script.
+
+Run the code to launch the GUI window.
+
+Interact with the widgets to explore the functionality.
+
+🔄 Run Instructions
+If you're using Jupyter Notebook:
+
+nginx
+Copy
+Edit
+jupyter notebook 19d2e55d-b7ff-4124-bf3b-2fdc57688ba8.ipynb
+Or, convert it into a Python script and run:
+
+css
+Copy
+Edit
+jupyter nbconvert --to script 19d2e55d-b7ff-4124-bf3b-2fdc57688ba8.ipynb
+python 19d2e55d-b7ff-4124-bf3b-2fdc57688ba8.py
+🙌 Contribution
+Feel free to fork this repository, make enhancements, or open issues. Your contributions are always welcome!
 
 📜 License
-This project is licensed under the MIT License - feel free to use it for academic or personal projects.
+This project is open-source and available under the MIT License.
 
-❤️ Contributions
-Have an idea to improve this project?
-Feel free to fork and submit a pull request!
-
-🔍 References
-UCI Machine Learning Repository – SMS Spam Collection
-
-scikit-learn Documentation
-
-Python’s Tkinter Library
-
-yaml
-Copy
-Edit
-
----
-
-✅ After pasting it on GitHub, just rename your GUI image to `output_image.png` or update the filename accordingly in the `![Tkinter Output]()` section.
-
-Let me know if you want me to generate the `requirements.txt` too!
-
-
-
-
-
-
-
+📧 Contact
+Have questions or suggestions? Reach out via GitHub Issues.
