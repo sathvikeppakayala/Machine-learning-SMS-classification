@@ -51,14 +51,14 @@ pip install ipython
 To run the project using Jupyter Notebook:
 
 ```bash
-jupyter notebook 19d2e55d-b7ff-4124-bf3b-2fdc57688ba8.ipynb
+jupyter notebook Existing System_Spam Classification.ipynb
 ```
 
 Or convert it to a Python script and run:
 
 ```bash
-jupyter nbconvert --to script 19d2e55d-b7ff-4124-bf3b-2fdc57688ba8.ipynb
-python 19d2e55d-b7ff-4124-bf3b-2fdc57688ba8.py
+jupyter nbconvert --to script Existing System_Spam Classification.ipynb
+python Existing System_Spam Classification.ipynb
 ```
 
 ## 🙌 Contribution
